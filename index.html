@@ -4,19 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+    rel="stylesheet"/>
     <script src="https://cdn.tailwindcss.com"></script
 </head>
 <body>
-    <div class="main w-full h-screen bg-white">
+    <div class="main w-full h-screen bg-white font-['gilroy']">
         <div class="container mx-auto">
-            <div class="navbar flex justify-between items-center w-full py-3 px-4">
-                <h3>Neganou</h3>
-                <div class="links flex gap-10">
+            <div class="navbar flex justify-between items-center w-full py-6 px-4">
+                <h3 class="font-semibold">Neganou.design</h3>
+                <div class="hidden lg:flex gap-10">
                     <a class="text-sm" href="#">Works</a>
                     <a class="text-sm opacity-50" href="#">Service</a>
                     <a class="text-sm opacity-50" href="#">Contacts</a>
                     <a class="text-sm opacity-50" href="#">Pricing</a>
                 </div>
+                <i class="ri-menu-line lg:hidden"></i>
+            </div>
+            <div class="w-full flex flex-col items-center mt-20">
+                <div class="image w-24 h-24 bg-purple-100 rounded-full flex items-center justify-center">
+                    <img class="w-full h-full object-cover" src="./image.png" alt="">
+                </div>
+                <h1 class="font-semibold text-xl mt-4">Hi, I'm Vishwajeet 👋</h1>
             </div>
         </div>
     </div>
